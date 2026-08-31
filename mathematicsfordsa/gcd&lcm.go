@@ -1,4 +1,4 @@
-package main
+package mathematicsfordsa
 
 func gcd(a int ,b int)int {
 	if b == 0{
@@ -20,6 +20,5 @@ func gcdOfOddEvenSums(n int) int {
 		sumEven += 2 * i        
         sumOdd += (2 * i) - 1    
     }
-	}
 	return gcd(sumOdd,sumEven)
 }

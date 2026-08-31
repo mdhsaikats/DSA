@@ -1,4 +1,4 @@
-package main
+package mathematicsfordsa
 
 import (
 	"fmt"
@@ -23,10 +23,3 @@ func primeNumber(n int) {
 	fmt.Println("It is a prime number")
 }
 
-func main() {
-	// primeNumber(2)
-	// primeNumber(9)
-	// primeNumber(17)
-	// fmt.Println(gcd(48,18))
-	fmt.Println(lcm(48,18))
-}
