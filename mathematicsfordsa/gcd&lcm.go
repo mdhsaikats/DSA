@@ -7,7 +7,7 @@ func gcd(a int ,b int)int {
 	return gcd(b, a%b)
 }
 
-func lcm(a,b int)int{
+func Lcm(a,b int)int{
 	res := (a*b) / gcd(a,b)
 	return res
 }
