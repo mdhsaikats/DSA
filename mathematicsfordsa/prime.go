@@ -24,7 +24,9 @@ func primeNumber(n int) {
 }
 
 func main() {
-	primeNumber(2)
-	primeNumber(9)
-	primeNumber(17)
+	// primeNumber(2)
+	// primeNumber(9)
+	// primeNumber(17)
+	// fmt.Println(gcd(48,18))
+	fmt.Println(lcm(48,18))
 }
