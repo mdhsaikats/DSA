@@ -11,5 +11,6 @@ func main() {
 	//fmt.Println(mathematicsfordsa.Lcm(48, 18))
 	//fmt.Println(mathematicsfordsa.BadFactoril(21))
 	//fmt.Println(mathematicsfordsa.GoodFactorial(21))
-	fmt.Println(mathematicsfordsa.AddMod(2,2))
+	//fmt.Println(mathematicsfordsa.AddMod(2,2))
+	fmt.Println(mathematicsfordsa.Sieve(10))
 }
