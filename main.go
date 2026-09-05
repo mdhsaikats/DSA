@@ -1,10 +1,6 @@
 // main.go
 package main
 
-import (
-	"github.com/mdhsaikats/DSA.git/array"
-)
-
 func main() {
 	//math
 	//fmt.Println(mathematicsfordsa.Lcm(48, 18))
@@ -18,6 +14,7 @@ func main() {
 	//array
 	//fmt.Println(array.ArrayIntro(4))
 	//array.Traversal()
-	array.Insertion(10, 1)
+	//array.Insertion(10, 1)
+	//array.Deletion(1)
 
 }
