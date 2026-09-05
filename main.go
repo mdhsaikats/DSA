@@ -2,8 +2,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/mdhsaikats/DSA.git/array"
 )
 
@@ -22,6 +20,8 @@ func main() {
 	//array.Traversal()
 	//array.Insertion(10, 1)
 	//array.Deletion(1)
-	fmt.Println(array.PrefixSum())
+	//fmt.Println(array.PrefixSum())
+	//array.FixedWindow()
+	array.VariableFixed()
 
 }
