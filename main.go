@@ -17,6 +17,7 @@ func main() {
 
 	//array
 	//fmt.Println(array.ArrayIntro(4))
-	array.Traversal()
+	//array.Traversal()
+	array.Insertion(10, 1)
 
 }
